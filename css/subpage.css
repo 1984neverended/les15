@@ -1,0 +1,113 @@
+body {
+    background-color: #333;
+    color: #CCC;
+    margin: 20px;
+    font-family: Cambria, serif;
+}
+
+#introTextContainer {
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+p::selection {
+    background: #F66;
+    color: #333;
+}
+
+table, tr, td{
+    border: 1px solid #555;
+    border-collapse: collapse;
+    padding: 8px;
+}
+table {
+    width: 100%;
+}
+td:hover {
+    color: #F66;
+}
+
+#edu {
+    background-color: #222;
+    font-weight: bold;;
+}
+.eduValue {
+    background-color: #322;
+
+}
+#work {
+    background-color: #111;
+    font-weight: bold;
+}
+.workValue {
+    background-color: #211;
+}
+
+form {
+    width: 420px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+textarea {
+    padding: 5px;
+    font-family: Cambria;
+    font-size: 12pt;
+    width: 390px;
+    height: 200px;
+    resize: none;
+    background-color: #333;
+    border: 1px solid #222;
+    border-radius: 5px;
+    color: #F66;
+    outline: none;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"], input[type="email"] {
+    font-family: Cambria;
+    font-size: 12pt;
+    background-color: #333;
+    border: 1px solid #222;
+    border-radius: 5px;
+    color:#F66;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 250px;
+    outline: none;
+}
+
+input[type="text"]:focus ,input[type="email"]:focus, textarea:focus {
+    border-color: #F66;
+}
+.fixedWidthText {
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    padding-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #333;
+    font-family: Cambria;
+    font-size: 12pt;
+    color: #CCC;
+    border-radius: 5px;
+    border: 1px solid #222;
+}
+
+button:hover {
+    border-color: #F66;
+    background-color: #333;
+    color: #F66;
+}
